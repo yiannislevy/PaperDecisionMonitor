@@ -1,0 +1,9 @@
+# macOS system files
+.DS_Store
+
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
