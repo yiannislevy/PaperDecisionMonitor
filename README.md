@@ -20,13 +20,14 @@ pip3 install -r requirements.txt
 
 ### 2. Set up your .env file
 
+```
 USERNAME=your_login_username
 PASSWORD=your_login_password
-START_URL=https://embs.papercept.net/conferences/scripts/start.pl <!-- Developed only for this -->
+START_URL=https://embs.papercept.net/conferences/scripts/start.pl
 PAPER_ID=YourPaperID
-
 BOT_TOKEN=your_telegram_bot_token
 CHAT_IDS=["ID1", "ID2"]
+```
 
 ## Telegram Bot Setup
 
@@ -55,4 +56,5 @@ The script will start the process:
 - Notify you via Telegram when the status changes
 - Sleep in between all steps to avoid harming the website's functionality and flagging the user.
 
-Use responsibly.
+---
+**Use responsibly.**
